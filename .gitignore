@@ -1,0 +1,49 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+secrets/
+**/secrets/
+**/*password*
+**/*credential*
+**/*token*
+**/*apikey*
+**/*api_key*
+
+# Python
+venv/
+.venv/
+env/
+**/venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Frontend dependencies and generated output
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+build/
+**/build/
+.vite/
+**/.vite/
+
+# Local databases and runtime state
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE and editor files
+.vscode/
+!.vscode/README.md
+.idea/
+*.swp
+*.swo
+*.tmp
+*.log
+.DS_Store
+Thumbs.db

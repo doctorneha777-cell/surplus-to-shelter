@@ -1,0 +1,16 @@
+FastAPI
+uvicorn
+pydantic
+sqlalchemy
+asyncpg
+python-multipart
+numpy
+opencv-python
+tensorflow
+torch
+Pillow
+requests
+pytest
+mypy
+black
+flake8
